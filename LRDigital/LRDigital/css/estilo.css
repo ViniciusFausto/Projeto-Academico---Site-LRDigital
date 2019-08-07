@@ -1,0 +1,381 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;     
+}
+
+/* Início menu (todas as páginas) */
+
+.topo{
+    display: flex;
+    align-items: center;
+    background-color: #468284a1;
+    justify-content: space-between;
+    height: 150px;
+    padding-right: 500px;
+    opacity:0.9; 
+}
+
+.topo img{
+    height: 110px;
+    padding-left: 100px;
+}
+.topo a{
+    text-decoration: none;
+    color: black;
+    padding-left: 20px;   
+}
+.menu{
+    display: flex;
+    justify-content:flex-end;
+    font-size: 20px;
+}
+
+.topo a:hover{
+    color: #fff;    
+}
+/* Fim menu */
+
+/* Início Página inicial */
+
+.inicialbackground{
+    background-image: url("../imagens/ImagemInicial.jpg");
+}
+
+.main{
+    text-align: center;
+    color: white
+}
+.main h1{
+    font-size: 60px;
+}
+.main p{
+    font-size: 37px;
+    line-height: 0;
+    font-weight: bold;
+}
+
+.lang{
+    position: absolute;
+    float: right;
+    padding-top: 20px; 
+    top: 0;
+    right: 0;
+    padding-right: 34px;
+}
+
+.lang img{
+    border-radius: 15px;
+    height: 40px;
+}
+
+#button{
+    display: block;
+    width: 300px;
+    height: 50px;
+    background-color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    border: 15px solid;
+    border-color: #fff;
+    text-align: center;
+    margin-left: 520px;    
+    text-decoration: none;
+    color: black;
+    height: 30px;
+    margin-bottom: 10px;
+}
+#button:hover{
+    background-color: black;
+    color: white;
+    border-color: black;
+}
+.patrocinadores{
+    border-top: 10px solid;
+    background-color:rgb(236, 226, 226);
+    color: black;
+    height: 300px;
+}
+.patrocinadores img{
+    width: 90px;
+    height: 90px;
+    margin-top: 5px;
+    margin-left: 115px;
+}
+.patrocinadores p{
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+}
+/* Fim página inicial */
+
+/* Início página de serviços */
+
+a.sublime{
+    text-decoration: underline ;
+}
+
+.servicobackground{
+    background-image: url("../imagens/ImagemInicial.jpg");
+    height: 500px;
+}
+
+.corposervico h2{
+    color:black;
+    text-align: center;
+    padding-left: 35px;
+    padding-bottom: 20px;
+}
+
+.servicooferecido{
+    border: 5px solid white;
+    width: 700px;
+    margin-left: 330px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    height: 250px;
+    /* background-color: #1d1a1a; */
+    /* opacity: 0.7; */
+    border-radius: 10px;
+}
+
+.servicooferecido h2, a{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.corposervico{
+    padding-top: 20px;
+    padding-left: 90px;
+    padding-right: 95px; 
+    color: white;
+}
+
+.corposervico a{
+    text-decoration: none;
+    color: black;
+}
+
+.fundoPatrocinadores{
+    padding-right: 320px;
+    margin-bottom: 40px;
+}
+
+.fundochileno{
+    background-color: rgb(31, 29, 29, 0.90);
+}
+
+.fundochaplin{
+    background-color: orange;
+}
+
+.fundoakitem{
+    background-color: rgb(168, 22, 22, 0.80);
+}
+
+.buttonservico{
+    padding-left: 15px;
+    padding-bottom: 70px;
+}
+
+.buttonservico2{
+    display: block;
+    width: 230px;
+    height: 20px;
+    background-color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border: 15px solid;
+    border-color: #fff;
+    text-align: center;
+    margin-left: 450px;    
+    height: 30px;
+}
+
+.buttonservico2:hover{
+    background-color: black;
+    color: white;
+    border-color: black;
+}
+
+.servicoimg{
+    padding-left: 520px;
+}
+.servicoimg img{
+    margin-top: 50px;
+    width: 130px;
+    height: 130px;
+    border: 10px solid;
+}
+
+.aligntxtservico{
+    padding-left: 385px; 
+    padding-bottom: 50px; 
+    text-align: center;
+    font-size: 20px;
+}
+
+/* Fim página de serviços */
+
+/* Inicio da tela Sobre */
+
+.sobrebackground{
+    background-image: url('../imagens/imagenteste2.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 1200px;
+}
+#mainSobre{
+    border: 5px solid white;
+    border-radius: 10px;
+    margin: 30px;
+}
+
+.titulosobre{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.txtsobre{
+    margin: 40px;
+    padding: 0px 100px 0px 100px;
+    color: white;
+    margin-top: 74px;
+    font-weight: bold;
+}
+
+.fotoprincipal img{
+    border: 8px solid;
+    height: 200px;
+    float: left;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+.fotosec img{
+    height: 200px;
+    width: 200px;
+    padding-left: 40px; 
+    margin-left: 150px;
+    padding-bottom: 20px;
+    padding-top: 20px; 
+}
+.fotosec2 img{
+    padding-left: 300px;
+}
+/* fim da tela sobre */
+
+
+/* Início página de contato */
+
+a.sublime{
+    text-decoration: underline ;
+}
+
+.erro {
+    color: red;
+    border-radius: 5px;
+    padding-top: 10px;
+    font-size: 17px;
+}
+
+.sucesso{
+    color: green;
+    border-radius: 5px;
+}
+
+.contatobackground{
+    background-image: url("../imagens/ImagemInicial.jpg");
+    background-size: cover;
+    height: 870px;
+}
+
+.info p{
+    font-size: 25px;
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+}
+
+.formulariocontato{
+    border: 5px solid white;
+    /* background-color: rgb(214, 202, 202); */
+    color: white;
+    border-radius: 10px;
+    height: 500px;
+    width: 500px;
+    padding-left: 50px;
+    margin-left: 400px;
+    margin-top: 50px;
+}
+
+#mensagem{
+    height: 95px;
+    width: 300px;
+}
+/* Fim página de contato */
+
+/* Início rodape (todas as páginas) */
+.rodape{
+    background-color:   #2c6e70;
+    padding-top: 20px;
+    height: 250px;;
+    width:100%;
+}
+.icones{
+    width: 10px;
+    text-align: center;
+    width:30px;
+    margin-left: 200px;
+}
+.icone{
+    width:30px;
+    margin: 10px;
+}
+.logo{
+    width: 75px;
+    margin-left: 10px;
+}
+.icon{
+    width: 40px;
+    margin-left: 10px;
+}
+.tamanho{
+    width: 30px;
+    padding-left: 20px;
+}
+.contatos{
+    float: left;
+}
+.contatos img{
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.contatos, .sociais, #map{
+    display: inline-block;
+}
+.sociais{
+    text-align: center;
+    margin-left: 22%;
+    margin-top: 40px;
+    vertical-align:top;
+}
+#map{
+    overflow:hidden;
+    width: 410px; 
+    padding-top: 5px;
+    padding-left: 230px;
+}
+.txt{
+    margin-top: 30px;
+    margin-left: 900px;
+}
+.txt p{ 
+    font-size: 15px;
+}
+
+/* Fim rodapé (todas as páginas) */
